@@ -1,7 +1,7 @@
 # Folder path and the find/replace terms
-$folderPath = "C:\Users\lsementa\Documents\folder"
-$findText = ".gif"
-$replaceText = ".jpg"
+$folderPath = "C:\Users\lsementa\Documents\Degree Advice\degree-advice-pdf\Dashboard"
+$findText = 'C:/users/'
+$replaceText = 'file:///C:/Users/'
 
 # Get all files in the folder (you can add filters like *.txt or *.js if you want specific files)
 $files = Get-ChildItem -Path $folderPath -File
